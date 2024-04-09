@@ -1,0 +1,30 @@
+- Initialise folder or repository on git
+- copy git clone url and initialise it in the vs code.
+- use cd to go to the route or to the path
+-git branch---> to know which branch you are currently working on
+-git fetch--> it will fetch all the branch on local
+-git branch --all --> all banch list from the repository will get listed
+-made some code level changes
+
+--git add .  (staging stage)
+-- git commit -m "your message"
+-- git push origin branchName ===> branch where you want to push the changes
+
+
+---> to config email and user follow below commands
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+
+--> to create new branch from existing branch follow below command
+
+git checkout -b branchName
+example--> main---> development
+
+
+---> suppose we want take pull of some other branch in our existing branch
+git pull origin branchName_from_whom_you_want_to_take_pull
+
+----> to switch between branch
+git checkout branchName
+
