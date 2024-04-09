@@ -22,6 +22,9 @@ git checkout -b branchName
 example--> main---> development
 
 
+---> suppose we want take pull of some other branch in our existing branch
+git pull origin branchName_from_whom_you_want_to_take_pull
+
 ----> to switch between branch
 git checkout branchName
 
